@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · uAsset有谱</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{color-scheme:light dark;--fg:#1c1e21;--fg-soft:#55585d;--line:#e3e5e8;--bg:#fff;--card:#f6f7f8;--accent:#0a7d8c}
+@media (prefers-color-scheme:dark){:root{--fg:#e8eaed;--fg-soft:#9aa0a6;--line:#33363a;--bg:#17181a;--card:#1f2124;--accent:#4fc3d1}}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.8 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px 20px 64px}
+header{margin-bottom:36px}
+.brand{font-size:13px;letter-spacing:.14em;color:var(--accent);font-weight:600}
+h1{font-size:26px;line-height:1.35;margin:6px 0 8px}
+.meta{font-size:13px;color:var(--fg-soft)}
+h2{font-size:17px;margin:40px 0 12px;padding-top:20px;border-top:1px solid var(--line)}
+p{margin:10px 0}
+ul{padding-left:1.2em;margin:10px 0}
+li{margin:6px 0}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+strong{font-weight:600}
+.note{background:var(--card);border-radius:10px;padding:14px 16px;font-size:14px;margin:16px 0}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--fg-soft)}
+.beian{margin-top:8px}
+</style>
+</head>
+<body>
+<main>
+
+<header>
+<div class="brand">UASSET有谱</div>
+<h1>隐私政策</h1>
+<div class="meta">更新日期：2026 年 11 月 21 日</div>
+</header>
+
+<p>uAsset有谱（下称「本应用」）是一款<strong>本地优先</strong>的个人资产记账与洞察工具，按「数据最小化」原则设计：<strong>你的账本与资产数据只保存在你的设备上</strong>，服务端没有用户数据库，也没有账号体系。具体而言，本应用：</p>
+
+<ul>
+<li>不要求注册或登录，不收集手机号、邮箱等任何身份信息</li>
+<li>不嵌入广告，不含第三方统计或追踪 SDK，不使用广告标识符（IDFA）</li>
+<li>不收集位置、通讯录等与功能无关的信息</li>
+<li>不出售任何信息，不跨应用、跨网站追踪你</li>
+</ul>
+
+<p>本政策说明本应用处理信息的范围与方式。</p>
+
+<h2>本地保存的数据</h2>
+<ul>
+<li>你的账本（持仓、金额、交易事件、备注）、应用偏好与应用锁设置<strong>仅存储在设备本地</strong></li>
+<li><strong>iCloud 同步（你主动开启）</strong>：合并式账本数据经你设备上的 iCloud 云盘在你自己的 Apple 设备间同步；数据存于<strong>你的个人 iCloud 空间</strong>，开发者无法访问其内容。可在「设置 › 数据管理」关闭</li>
+<li>可随时在「设置 › 数据管理」将全部账本导出为 CSV，用于备份或换机迁移；<strong>删除 App 即彻底删除本地全部数据</strong>（iCloud 云盘中的同步文件可在「文件」App 中手动删除）</li>
+</ul>
+
+<h2>AI 功能</h2>
+<p><strong>截图识别</strong>：你<strong>主动挑选</strong>的持仓截图经加密传输至本应用后端，并<strong>转发至第三方大模型服务提供方</strong>完成当次识别，识别完成即弃、服务器<strong>不留存</strong>；本应用不申请访问整个相册的权限，识别结果也需你<strong>逐行确认</strong>后才会入账。</p>
+<p><strong>简报与复盘</strong>：提示词<strong>全部在本机生成</strong>，只含各类资产占比等脱敏信息；发送给哪家 AI 应用（千问、豆包、系统分享等）由你自行选择和操作。本应用服务器<strong>不采集任何持仓或组合数据</strong>，金额、份额、成本与占比均不出手机；定时通知由系统本地推送，仅用作到点提醒，不携带任何持仓内容。</p>
+
+<h2>设备码（伪匿名标识）</h2>
+<ul>
+<li>首次使用时，本应用基于系统提供的 iCloud 用户标识经 SHA-256 单向散列生成设备码并注册到后端；未登录 iCloud 时使用设备本地随机码</li>
+<li>设备码不包含也不关联你的姓名、手机号、Apple ID 等个人信息，仅用于接口限流与截图识别的每月配额计数</li>
+</ul>
+
+<h2>政策变更</h2>
+<p>本政策如有重大变更，将在本页面更新并修订生效日期。</p>
+
+<h2>联系我们</h2>
+<p>对本政策或数据处理有任何疑问，或希望删除与你的设备码关联的服务端记录，请联系：<a href="mailto:support@linhaojie.xyz">support@linhaojie.xyz</a></p>
+
+<footer>
+<div>uAsset有谱 · <a href="/terms">用户协议</a></div>
+<div class="beian"><a href="https://beian.miit.gov.cn" target="_blank" rel="noopener">粤ICP备2026179095号-1</a></div>
+</footer>
+
+</main>
+</body>
+</html>
